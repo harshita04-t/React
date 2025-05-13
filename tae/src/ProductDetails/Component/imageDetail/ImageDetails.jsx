@@ -1,0 +1,72 @@
+import React from 'react'
+import MoreArrow from '../../../commonItem/MoreArrow'
+
+import { useState } from "react";
+
+export default function ImageDetails() {
+
+     const images = [
+      'https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-5304-5304,pr-true,f-auto,q-80/cms/product_variant/9bc896d4-229d-45a4-8294-b36f97f5992c/Vietnamese-Cold-Coffee.jpeg',
+      'https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/323ec1fa-93f9-4ffd-a6b1-67f994cb5f3c/Vietnamese-Cold-Coffee.jpeg',
+      'https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/0cc10036-0713-49a3-9fc8-9799127309de/Vietnamese-Cold-Coffee.jpeg',
+      'https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/4a7259dd-8056-480e-8881-220fb2350b63/Vietnamese-Cold-Coffee.jpeg',
+      'https://cdn.zeptonow.com/production/ik-seo/tr:w-1210,ar-1210-700,pr-true,f-auto,q-80/inventory/IMAGE/c55e1c9f-8d21-4153-bf29-46892d57c616-Screenshot_2022-08-26_at_15.35.02/Vietnamese-Cold-Coffee.png',
+    ];
+    
+    const [currentIndex, setCurrentIndex] = useState(0);
+    
+      const prevSlide = () => {
+        setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+      };
+    
+      const nextSlide = () => {
+        setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+      };
+  return (
+    <div>
+       <div className="Nav">
+              <span><a href="https://www.zeptonow.com/">Home</a> <MoreArrow/></span>
+              <span><a href="/">Tea&Coffee</a><MoreArrow/></span>
+              <span><a href="/">Vietnamese Cold Coffee</a><MoreArrow/></span>
+          </div>
+
+            <div className="imageDetail">
+      <div className="itemimage1">
+       <div className="item">
+        <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-88,ar-5304-5304,pr-true,f-auto,q-80/cms/product_variant/9bc896d4-229d-45a4-8294-b36f97f5992c/Vietnamese-Cold-Coffee.jpeg" 
+        alt="item1" />
+       </div>
+       <div className="item">
+        <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-88,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/323ec1fa-93f9-4ffd-a6b1-67f994cb5f3c/Vietnamese-Cold-Coffee.jpeg"
+        alt="item2"/>
+       </div>
+       <div className="item">
+           <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-88,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/0cc10036-0713-49a3-9fc8-9799127309de/Vietnamese-Cold-Coffee.jpeg"
+        alt="item3"/>
+       </div>
+       <div className="item">
+           <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-88,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/4a7259dd-8056-480e-8881-220fb2350b63/Vietnamese-Cold-Coffee.jpeg"
+        alt="item4"/>
+       </div>
+       <div className="item">
+           <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-1210,ar-1210-700,pr-true,f-auto,q-80/inventory/IMAGE/c55e1c9f-8d21-4153-bf29-46892d57c616-Screenshot_2022-08-26_at_15.35.02/Vietnamese-Cold-Coffee.png"
+        alt="item5"/>
+       </div>
+      </div>
+      
+      <div className="itemimage2">
+        <div style={{position: 'relative',
+  display: 'inline-block',}}>
+       <img src={images[currentIndex]} alt="slide"  />
+       <div style={{position:'absolute',display:'flex',gap:'5px', bottom: '10px',
+  left: '76%',}}>
+      <button onClick={prevSlide}>⟨</button>
+      <button onClick={nextSlide}>⟩</button></div></div></div>
+      
+     
+
+      </div>
+        <button className="AddtoCart">Add To Cart</button>
+    </div>
+  )
+}
