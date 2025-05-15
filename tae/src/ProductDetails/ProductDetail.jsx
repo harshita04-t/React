@@ -13,8 +13,8 @@ return(
     <div className="Product">
       <div className="Product2">
       <div style={{display:'flex',}}>
-       <ImageDetails/>
-       <Detail/>
+       <div><ImageDetails/></div>
+       <div><Detail/></div> 
        </div>
        <SimilarItem searchTerm={searchTerm} title={'Similar Product'}/>
        <SimilarItem searchTerm={searchTerm} title={'You might also like'}/>

@@ -99,7 +99,8 @@
     font-weight: bold;
     font-size: 16px;
     margin: 20px 0 0 115px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     text-align: center;
     border-radius: 8px;
 
