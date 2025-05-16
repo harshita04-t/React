@@ -12,7 +12,7 @@ return(
     <>
     <div className="Product">
       <div className="Product2">
-      <div style={{display:'flex',}}>
+      <div style={{width:'80%',margin:'0 auto'}}>
        <div><ImageDetails/></div>
        <div><Detail/></div> 
        </div>
