@@ -146,3 +146,50 @@ display: flex;
   line-height: 1.25rem;
   flex-shrink: 0;
 }
+.Coupon-button{
+  display:flex;
+  flex-direction:column;
+  gap: 0.5rem;
+}
+.Coupon-button button{
+  background-color: transparent;
+  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+gap: 0.5rem;
+cursor: pointer;
+border: none;
+}
+
+.img-contain{
+  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  position: relative;
+  border: 1px solid #f0f4f9;
+}
+
+.img-contain img{
+  color: transparent;
+    object-fit: contain;
+    overflow: hidden;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    max-width: 100%;
+}
+
+.ViewAll{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+  color:#fa3778;
+  font-weight: 600;
+}
