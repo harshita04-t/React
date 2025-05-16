@@ -1,5 +1,6 @@
 import React from 'react'
-import MoreArrow from '../../../commonItem/MoreArrow'
+import MoreArrow from '../MoreArrow'
+import Return from '../../../commonItem/Return'
 
 export default function Detail() {
   return (
@@ -123,7 +124,24 @@ export default function Detail() {
 
           </div>
           </div>
+             
+             <div>
+              <div className='seperation'></div>
 
+              <div className='option'>
+                <div>
+                  
+                   <div style={{fontWeight: '600',fontSize: '10px',textAlign: 'center'}}>
+                    <p>No Return or Exchange</p>
+                   </div>
+                </div>
+                <div>
+                   <div style={{fontWeight: '600',fontSize: '10px',textAlign: 'center'}}>
+                    <p>Fast Delivery</p>
+                   </div>
+                </div>
+              </div>
+             </div>
           
       </div>
       </div>

@@ -1,5 +1,8 @@
-import Detail from "./ProductDetails/Component/Detail/Detail";
-import './ProductDetails/Component/Detail/Details.css'
+// import Detail from "./ProductDetails/Component/Detail/Detail";
+// import './ProductDetails/Component/Detail/Details.css'
+
+import ProductDetail from "./ProductDetails/ProductDetail";
+
 // import { useState } from "react";
 function App() {
 
@@ -9,10 +12,10 @@ function App() {
     
     {/* <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/> */}
    {/* <OrderDetails/> */}
-
-   {/* <ProductDetail/>  */}
+    <ProductDetail/>
+   
    {/* <ImageDetails/> */}
-   <Detail/>
+   {/* <Detail/> */}
    </>
   );
 }

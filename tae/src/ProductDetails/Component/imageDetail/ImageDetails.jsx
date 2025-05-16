@@ -1,5 +1,5 @@
 import React from 'react'
-import MoreArrow from '../../../commonItem/MoreArrow'
+
 
 import { useState } from "react";
 
@@ -25,14 +25,7 @@ export default function ImageDetails() {
       };
   return (
     <>
-    <div className="Nav">
-              <span><a href="/">Home</a> <MoreArrow/></span>
-              <span><a href="/">Tea&Coffee</a><MoreArrow/></span>
-              <span><a href="/">Vietnamese Cold Coffee</a></span>
-          </div>
-
-
-           <div className='image-collection'>
+    <div className='image-collection'>
             <div className="imageDetail">
             <div className="itemimage1">
            {images.map((img, i) => (
@@ -67,8 +60,8 @@ export default function ImageDetails() {
        
       
       </div>
-
-      <div className='cart-btn'> <button className="AddtoCart">Add To Cart</button></div>
+<div style={{ marginLeft: '68px'}}>
+      <div className='cart-btn'> <button className="AddtoCart">Add To Cart</button></div></div>
 </div>
 
     
