@@ -1,0 +1,61 @@
+.coupon-panel {
+  width: 360px;
+  background: white;
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:16px;
+  margin:0;
+}
+
+.header h3{
+  color:#262a33;
+  line-height: 1.25rem;
+  font-size: 16px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.offer-box {
+  border: 1px solid #eee;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+
+.offer-content strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.details-list {
+  padding-left: 16px;
+  margin: 8px 0;
+  color: #444;
+  font-size: 14px;
+}
+
+.offer-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #888;
+}
+
+.view-more {
+  color: #d60066;
+  cursor: pointer;
+  font-weight: 500;
+}

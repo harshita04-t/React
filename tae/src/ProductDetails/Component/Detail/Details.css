@@ -255,3 +255,10 @@ border: none;
   white-space: normal;
   width: 50%;
 }
+
+.returnAndexchange{
+  font-weight: 600;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+}

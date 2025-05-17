@@ -1,8 +1,10 @@
-// import Detail from "./ProductDetails/Component/Detail/Detail";
-// import './ProductDetails/Component/Detail/Details.css'
 
+
+import CouponsPanel from "./ProductDetails/Component/CouponSlider/CouponPanel";
 import ProductDetail from "./ProductDetails/ProductDetail";
 import './ProductDetails/product.css'
+
+
 // import { useState } from "react";
 function App() {
 
@@ -11,11 +13,10 @@ function App() {
    <>
     
     {/* <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/> */}
-   {/* <OrderDetails/> */}
-    <ProductDetail/>
+  
+    {/* <ProductDetail/> */}
+   <CouponsPanel/>
    
-   {/* <ImageDetails/> */}
-   {/* <Detail/> */}
    </>
   );
 }

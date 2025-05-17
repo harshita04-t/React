@@ -131,12 +131,12 @@ export default function Detail() {
               <div className='option'>
                 <div>
                   
-                   <div style={{fontWeight: '600',fontSize: '10px',textAlign: 'center'}}>
+                   <div className='returnAndexchange'>
                     <p>No Return or Exchange</p>
                    </div>
                 </div>
-                <div>
-                   <div style={{fontWeight: '600',fontSize: '10px',textAlign: 'center'}}>
+                <div >
+                   <div className='returnAndexchange' >
                     <p>Fast Delivery</p>
                    </div>
                 </div>
