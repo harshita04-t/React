@@ -47,13 +47,15 @@ export default function CouponsPanel() {
   };
 
   return (
+    <div className='Main-Panel'>
     <div className="coupon-panel">
       <div className="header">
+        <div className='heading-panel'>
         <h3>Coupons & Offers</h3>
-        <button className="close-btn">×</button>
+        <button className="close-btn">×</button></div>
 
       </div>
-
+      <div className='Coupon-container'>
       {offers.map((offer, index) => (
         <div key={index} className="offer-box">
           <div className="offer-content">
@@ -66,19 +68,21 @@ export default function CouponsPanel() {
               </ul>
             )} </div>
             <div className='seperate-line'></div>
-
+            <div className='View'>
             <div className="offer-actions">
               
               {offer.details.length > 0 && (
-                <span className="view-more" onClick={() => toggleExpand(index)}>
+                <button className="view-more" onClick={() => toggleExpand(index)}>
                   {expanded[index] ? 'View Less' : 'View More'}
-                </span>
+                </button>
               )}
               <span className="min-order">Min Order Required: ₹{offer.minOrder}</span>
-            </div>
+            </div></div>
           
         </div>
       ))}
+      </div> 
+    </div>
     </div>
   );
 }
