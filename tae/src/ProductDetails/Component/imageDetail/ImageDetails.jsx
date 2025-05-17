@@ -1,4 +1,5 @@
 import React from 'react'
+import './imageDetail.css';
 
 
 import { useState } from "react";

@@ -2,7 +2,7 @@
 // import './ProductDetails/Component/Detail/Details.css'
 
 import ProductDetail from "./ProductDetails/ProductDetail";
-
+import './ProductDetails/product.css'
 // import { useState } from "react";
 function App() {
 

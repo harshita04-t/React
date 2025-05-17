@@ -1,6 +1,6 @@
 import React from 'react'
 import MoreArrow from '../MoreArrow'
-import Return from '../../../commonItem/Return'
+import './Details.css';
 
 export default function Detail() {
   return (
@@ -143,6 +143,128 @@ export default function Detail() {
               </div>
              </div>
           
+      </div>
+
+      <div>
+        <div style={{marginTop: '1.5rem'}}>
+          <div>
+            <div className='Highlights'>
+             <h3>Highlights</h3>
+             <div style={{marginTop:'1.25rem'}}>
+
+              <div style={{gap: '1rem',flexDirection: 'column',display: 'flex',}}>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Brand</h3>
+                 <p className='right'>Zepto Cafe</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Dietary Preference</h3>
+                 <p className='right'>Veg</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Allergen Information</h3>
+                 <p className='right'>Contains: Milk</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Protein</h3>
+                 <p className='right'>2.5 g</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Disclaimer</h3>
+                 <p className='right'>All nutritional information displayed is as per 100g/ml serve size. The beverage has been put into a larger cup to avoid spillage. Efforts are made to ensure accuracy, but product packaging may have additional or updated details. Please do not rely solely on the information provided and refer to the packaging for complete details</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Serving Temperature</h3>
+                 <p className='right'>Served Cold</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Key Features</h3>
+                 <p className='right'>Our bestseller Strong brewed coffee meets velvety condensed milk over ice refreshing rich and just the right kind of pickmeup</p>
+             </div>
+
+             <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Serving Size</h3>
+                 <p className='right'>450 g</p>
+             </div>
+             
+
+</div>
+              <div>
+            </div>
+          </div>
+
+          </div>
+</div>
+
+
+
+
+      </div>
+
+        <div style={{marginTop: '1.5rem'}}>
+          <div>
+            <div className='Highlights'>
+             <h3>Information</h3>
+             <div style={{marginTop:'1.25rem'}}>
+
+              <div style={{gap: '1rem',flexDirection: 'column',display: 'flex',}}>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Nutrition Information</h3>
+                 <p className='right'>Energy (kcal) 76.6, Protein (g) 2.5, Carbohydrate (g) 12.6, Sugar (g) 8.4, Sodium (mg) 28.9, Fat (g) 1.9</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Customer Care Details</h3>
+                 <p className='right'>In case of any issue, contact us E-mail address: support@zeptonow.com</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Refund Policy</h3>
+                 <p className='right'>Refunds/complaints window is 12 hrs</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Seller Name</h3>
+                 <p className='right'>Drogheria Sellers Private Limited</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Seller Address</h3>
+                 <p className='right'>Brigade IRV, 9th & 10th Floors, Nallurhalli, White Field, Bangalore, Banglore, Karnataka, India, 560066 For Support ReachOut : support+drogheria@zeptonow.com</p>
+             </div>
+
+              <div style={{gap: '0.75rem',alignItems: 'flex-star',display: 'flex'}}>
+                 <h3 className='left'>Seller License No.</h3>
+                 <p className='right'>11522998001570</p>
+             </div>
+
+            
+
+             
+             
+
+</div>
+              <div>
+            </div>
+          </div>
+
+          </div>
+</div>
+
+
+
+
+      </div>
+
+
       </div>
       </div>
       </>
