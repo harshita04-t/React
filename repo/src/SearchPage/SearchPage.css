@@ -30,21 +30,24 @@
     padding-right: 0.5rem;
     padding-top: 1.25rem;
   overflow-x: hidden;
+  grid-template-columns: repeat(4,minmax(0,1fr));
 
    
 }
 
 .Item-Sec{
   position: relative;
-  cursor: pointer;
-  margin: 0.5rem;
-  border-radius: 0.5rem;
-  max-width: 260px;
-  border: 1px  solid #e6e8ed;
+    cursor: pointer;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    max-width: 300px;
+    
+    border: 1px solid #e6e8ed;
+    overflow: hidden;
 }
 
 .Item-Sec button{
-  padding: 4px;
+  padding: 0.25rem;
   border-radius: 6px;
   z-index: 10;
   top: 0.5rem;
@@ -58,12 +61,68 @@
 }
 
 .Item-Sec img{
-/* padding: 1.175rem;
-object-fit: contain;
-width: 100%;
-position: relative;
+width:100%;
 color: transparent;
+object-fit: contain;
+padding: 1.175rem;
 border-radius: 0.75rem;
-border: 1px  solid #e6e8ed;
-overflow: hidden; */
+overflow: hidden;
+aspect-ratio: 1/1;
+position: relative;
+}
+
+.Cover{
+    padding-top: 2rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    position: absolute;
+    background-color: hsla(0, 0%, 23%, 0.281);
+}
+
+.Left-Side{
+  width: 50%;
+}
+.Left-Side h6{
+ text-overflow: ellipsis ;
+ overflow: hidden;
+white-space: nowrap;
+margin: 0;
+color: #fcffff;
+font-size: 12px;
+}
+
+.Left-Side p{
+color: hsla(0,0%,100%,.8);
+margin: 0;
+font-size: 10px;
+font-weight: 400;
+color: #fcffff;
+}
+
+.Right-Side{
+  width: 40% ;
+  text-align:  right;
+}
+
+.Right-Side h6{
+text-overflow: ellipsis ;
+ overflow: hidden;
+white-space: nowrap;
+margin: 0;
+color: #fcffff;
+font-size: 14px;
+color: #fcffff;
+}
+
+.Right-Side p{
+text-decoration-line: line-through;
+color: hsla(0,0%,100%,.8);
+margin: 0;
+font-size: 10px;
+font-weight: 400;
+color: #fcffff;
 }
