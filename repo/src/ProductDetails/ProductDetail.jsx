@@ -3,6 +3,7 @@ import Detail from "./Component/Detail/Detail";
 import ImageDetails from "./Component/imageDetail/ImageDetails";
 import SimilarItem from "./Component/SimilarItem/SimilarItem";
 import MoreArrow from './Component/MoreArrow'
+
 // import './Tooltip.css'
 
 
