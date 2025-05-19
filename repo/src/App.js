@@ -5,7 +5,8 @@ import ProductDetail from "./ProductDetails/ProductDetail";
 import './ProductDetails/product.css'
 
 import SearchPage from "./SearchPage/SearchPage";
-
+// import './zepto/app.css'
+// import Navbar from './zepto/Navbar'
 // import { useState } from "react";
 function App() {
 
